@@ -33,11 +33,11 @@
 
 ```bash
 # Check if About page exists (returns 404)
-curl -s "https://www.kechenelectrical.com/Company-Profile"
+curl -s "[company-website-url]/Company-Profile"
 # Result: 404 Not Found nginx
 
 # Extract full homepage text for content analysis
-curl -s "https://www.kechenelectrical.com/" | python3 -c "..."
+curl -s "[company-website-url]/" | python3 -c "..."
 
 # Browse product page and take annotated snapshot
 browser_navigate → product page URL

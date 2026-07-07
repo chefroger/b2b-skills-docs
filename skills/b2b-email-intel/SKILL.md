@@ -25,13 +25,13 @@ injection_prompt: |
 
 | 平台 | 账号 | 公开档案 |
 |------|------|---------|
-| GitHub | johnsmith-dev | https://github.com/johnsmith-dev |
-| LinkedIn | [Contact Name] | https://www.linkedin.com/in/johnsmith |
-| Twitter | @johnsmith_dev | https://twitter.com/johnsmith_dev |
-| Stack Overflow | johnsmith | https://stackoverflow.com/users/johnsmith |
-| Instagram | johnsmith_dev | https://www.instagram.com/johnsmith_dev |
-| Facebook | [Contact Name] | https://www.facebook.com/johnsmith |
-| ZoomInfo | [contact.name]@[domain].com | 商务档案 |
+| GitHub | johnsmith-dev | [example-github-profile-url] |
+| LinkedIn | [Contact Name] | [example-linkedin-profile-url] |
+| Twitter | @johnsmith_dev | [example-twitter-profile-url] |
+| Stack Overflow | johnsmith | [example-stackoverflow-profile-url] |
+| Instagram | johnsmith_dev | [example-instagram-profile-url] |
+| Facebook | [Contact Name] | [example-facebook-profile-url] |
+| ZoomInfo | [example.email]@[domain].com | 商务档案 |
 
 ### ⚠️ 受限平台（IP 被限制）
 
@@ -65,7 +65,7 @@ Twitter, Instagram, TikTok 等核心社交平台均返回「未注册」。
 
 ## 技术实现
 
-内部使用 [holehe](https://github.com/megadose/holehe) 开源工具，通过以下方式获取信息：
+内部使用 [holehe](https://github.com/megadose/holehe 开源工具，通过以下方式获取信息：
 
 1. **注册接口探测**：向各平台注册接口发送请求，根据响应判断邮箱是否已存在
 2. **密码找回泄露**：部分平台在「忘记密码」页面会泄露关联的账号信息
