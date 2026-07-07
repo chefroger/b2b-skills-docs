@@ -8,7 +8,7 @@ author:
 injection_prompt: |
   你是 b2b-email-intel 技能。当用户需要调查某个邮箱的背景时（例如"查一下这个邮箱"、"背景调查"、"email intel"），请执行以下步骤：
   
-  1. 从对话中提取邮箱地址（格式：xxx@domain.com）
+  1. 从对话中提取邮箱地址（格式：[email@domain].com）
   2. 加载 skill: b2b-email-intel
   3. 调用 email_background_check(邮箱地址)
   4. 返回结构化报告：
@@ -26,12 +26,12 @@ injection_prompt: |
 | 平台 | 账号 | 公开档案 |
 |------|------|---------|
 | GitHub | johnsmith-dev | https://github.com/johnsmith-dev |
-| LinkedIn | John Smith | https://www.linkedin.com/in/johnsmith |
+| LinkedIn | [Contact Name] | https://www.linkedin.com/in/johnsmith |
 | Twitter | @johnsmith_dev | https://twitter.com/johnsmith_dev |
 | Stack Overflow | johnsmith | https://stackoverflow.com/users/johnsmith |
 | Instagram | johnsmith_dev | https://www.instagram.com/johnsmith_dev |
-| Facebook | John Smith | https://www.facebook.com/johnsmith |
-| ZoomInfo | john.smith@techcorp.com | 商务档案 |
+| Facebook | [Contact Name] | https://www.facebook.com/johnsmith |
+| ZoomInfo | [contact.name]@[domain].com | 商务档案 |
 
 ### ⚠️ 受限平台（IP 被限制）
 

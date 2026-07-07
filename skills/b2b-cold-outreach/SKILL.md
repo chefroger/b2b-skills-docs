@@ -61,7 +61,7 @@ From product files, gather:
 - **Product categories** and specific models offered
 - **Technical standards** (IEC, IEEE, ANSI)
 - **Certifications** (ISO 9001, TIMREX, KEMA test reports)
-- **Competitive advantages** (pricing vs PLP, lead time, customization)
+- **Competitive advantages** (pricing vs [Competitor Name], lead time, customization)
 
 From past quotations, gather:
 - **Products already quoted** to the target region
@@ -73,7 +73,7 @@ From past quotations, gather:
 
 Search for:
 - Local utility companies and their infrastructure projects
-- Competitors operating in the market (e.g., PLP Malaysia)
+- Competitors operating in the market (e.g., [Competitor Name])
 - Key decision-makers or procurement channels
 - Relevant technical standards adopted locally
 
@@ -147,7 +147,7 @@ Hi [Name],
 - Never use vague phrases like "competitive price" without context
 
 ### Competitive Positioning
-- Reference industry benchmarks (e.g., "typically 15-30% below PLP pricing")
+- Reference industry benchmarks (e.g., "typically 15-30% below [Competitor Name] pricing")
 - Mention certifications that matter to the target market
 - Highlight experience in similar markets
 
@@ -192,4 +192,4 @@ When referencing data from source documents:
 
 ## Linked Reference Files
 
-- `references/malaysia-market.md` — Malaysia market intelligence compiled from Kechen document library
+- `references/malaysia-market.md` — Malaysia market intelligence compiled from [Company Name] document library

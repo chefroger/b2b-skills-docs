@@ -99,11 +99,11 @@ injection_prompt: |
   如果官网只给了 info@，但 LinkedIn 找到了具体人名，尝试推测邮箱：
   1. 用 browser_navigate 访问 https://hunter.io/email-finder/{domain} （免费 5 次/月）
   2. 或用 email-checker 类工具验证以下模式：
-     - `{first}.{last}@{domain}` (john.smith@x.com)
-     - `{first}@{domain}` (john@x.com)
-     - `{first}{last}@{domain}` (johnsmith@x.com)
-     - `{first_initial}{last}@{domain}` (jsmith@x.com)
-     - `{last}@{domain}` (smith@x.com)
+     - `{first}.{last}@{domain}` (john.[contact.name]@x.com)
+     - `{first}@{domain}` ([contact.name]@x.com)
+     - `{first}{last}@{domain}` ([contact.name]@x.com)
+     - `{first_initial}{last}@{domain}` ([contact.name]@x.com)
+     - `{last}@{domain}` ([contact.name]@x.com)
   3. 推测出的邮箱必须用 verify_corporate_email 验证存在性才能列入 [确切]
   4. 未经验证的推测邮箱标注为 [推测 — 待验证]
 
